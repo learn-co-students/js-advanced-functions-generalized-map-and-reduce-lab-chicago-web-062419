@@ -5,7 +5,7 @@ function map(array, fn){
     return newArray
 }
 
-function reduce(array, fn, start = 0){
+function reduce(array, fn, start){
     let r = (!!start)? start: array[0]
     let i = (!!start)? 0:1
     for(;i < array.length; i++){
